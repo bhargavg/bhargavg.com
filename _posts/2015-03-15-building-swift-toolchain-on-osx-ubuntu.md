@@ -7,6 +7,9 @@ categories: Swift
 
 > Tl;Dr: Use `utils/build-toolchain` script in `Swift` repo to build the toolchain on both OS X and Ubuntu
 
+> Update: 16-Mar-2016: Apple released a new snapshot. 
+
+
 [API Design Guidelines Porposal](https://github.com/apple/swift-evolution/blob/master/proposals/0023-api-guidelines.md) introduced considerable breaking changes to Swift API.
 
 Foundation, XCTest and Swift Package Manager have already merged PR's adopting these changes, meaning, we can no longer use the latest (Mar 1st, 2016) toolchain for developing/contributing to Swift.
