@@ -8,8 +8,8 @@ highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
-exclude: [RAKEFILE]
-domain_name: 'http://yourblog-domain.com'
+exclude: [Rakefile]
+domain_name: 'http://bhargavg.com'
 google_analytics: 'UA-75144610-1'
 gems: [jekyll-paginate, jekyll-gist]
 
