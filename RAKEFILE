@@ -55,6 +55,12 @@ task :draft, :title do |t, args|
 # system ("#{ENV['EDITOR']} #{filename}")
 end
 
+desc 'Build with development environment'
+task :local do
+  puts "## Generating site in development environment"
+  system "JEKYLL_ENV=development jekyll build --watch --destination ~/Documents/htdocs/bhargavg.com"
+end
+
 desc 'preview the site with drafts'
 task :preview do
   puts "## Generating site"
