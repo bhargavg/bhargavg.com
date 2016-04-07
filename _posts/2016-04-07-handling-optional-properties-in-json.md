@@ -3,6 +3,8 @@ layout: post
 title: Handling Optional Properties in JSON
 date: 2016-04-07 14:57
 categories: Swift
+disqus: true
+uuid: 845BAB33-DC46-4492-BF29-8D83A8750DF4
 ---
 
 In our [previous](http://bhargavg.com/swift/2016/04/05/parsing-arrays-in-json.html) [versions](http://bhargavg.com/swift/2016/03/30/json-parsing-with-value-transformers.html) of [parser](http://bhargavg.com/swift/2016/03/29/functional-json-parsing-in-swift.html), there is no support for optionals. If any key transformation fails or if any key is missing or if the response contains `nil` values for keys, the whole parsing fails. This is not desired in most of the situations. 
