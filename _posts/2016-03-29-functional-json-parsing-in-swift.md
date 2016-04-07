@@ -3,6 +3,8 @@ layout: post
 title: Functional JSON Parsing in Swift
 date: 2016-03-29 18:33
 categories: Swift
+disqus: true
+uuid: 8E306AA1-9611-443E-8208-4597ABC563CD
 ---
 
 There are so many [good](http://chris.eidhof.nl/posts/json-parsing-in-swift.html) [tutorials](https://robots.thoughtbot.com/efficient-json-in-swift-with-functional-concepts-and-generics) written on parsing JSON in swift. This is my take on the same.
