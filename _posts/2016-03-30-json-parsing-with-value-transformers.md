@@ -7,6 +7,16 @@ categories: Swift
 
 In [the last tutorial](http://bhargavg.com/swift/2016/03/29/functional-json-parsing-in-swift.html) we've seen how to use functional concepts to parse JSON into Swift models. One of the main problems with that code is it doesn't support value transformations, ie., changing the values coming from JSON before assigning them to the model. Let's try to implement it.
 
+<blockquote>
+  <em>Posts in this series:</em>
+  <ul>
+    <li><em><a href="http://bhargavg.com/swift/2016/03/29/functional-json-parsing-in-swift.html">Functional JSON Parsing in Swift</a></em></li>
+    <li><em><strong><a href="http://bhargavg.com/swift/2016/03/30/json-parsing-with-value-transformers.html">JSON Parsing With Value Transformers</a></strong></em></li>
+    <li><em><a href="http://bhargavg.com/swift/2016/04/05/parsing-arrays-in-json.html">Parsing Arrays in JSON</a></em></li>
+    <li><em><a href="http://bhargavg.com/swift/2016/04/07/handling-optional-properties-in-json.html">Handling Optional Properties in JSON</a></em></li>
+  </ul>
+</blockquote>
+
 {% highlight swift %}
 // JSON to Parse
 let json: [String: Any] = [
