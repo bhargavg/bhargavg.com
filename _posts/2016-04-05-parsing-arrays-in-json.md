@@ -3,6 +3,8 @@ layout: post
 title: Parsing Arrays in JSON
 date: 2016-04-05 22:48
 categories: Swift
+disqus: true
+uuid: 312F120D-0E3C-44F8-B690-B5390CA452AE
 ---
 
 [Till]({{site.url}}/swift/2016/03/29/functional-json-parsing-in-swift.html) [now]({{site.url}}/swift/2016/03/30/json-parsing-with-value-transformers.html) we've successfully parsed simple JSON dictionaries along with value transformations. In this post, we'll see how to parse array of objects.

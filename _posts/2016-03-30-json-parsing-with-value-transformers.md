@@ -3,6 +3,8 @@ layout: post
 title: JSON Parsing With Value Transformers
 date: 2016-03-30 21:06
 categories: Swift
+disqus: true
+uuid: 9E0B5E3A-5E80-48B9-86A5-33253DB24E49
 ---
 
 In [the last tutorial](http://bhargavg.com/swift/2016/03/29/functional-json-parsing-in-swift.html) we've seen how to use functional concepts to parse JSON into Swift models. One of the main problems with that code is it doesn't support value transformations, ie., changing the values coming from JSON before assigning them to the model. Let's try to implement it.

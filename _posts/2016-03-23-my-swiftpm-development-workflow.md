@@ -3,6 +3,8 @@ layout: post
 title: My Swift-PM Development Workflow
 date: 2016-03-23 01:28
 categories: Swift
+disqus: true
+uuid: E7021192-C83D-4275-AAF1-41B76FD4C51A
 ---
 
 Recently I've started contributing to [Swift Package Manager](https://github.com/apple/swift-package-manager/). Contributing to Open Source projects is really an awesome learning experience. This post is about my workflow for contributing to Swift-PM.

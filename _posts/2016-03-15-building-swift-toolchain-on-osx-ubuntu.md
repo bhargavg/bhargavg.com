@@ -3,6 +3,8 @@ layout: post
 title:  "Building swift toolchain on OS X and Ubuntu-15.10"
 date:   2016-03-15 00:20:00
 categories: Swift
+disqus: true
+uuid: CBF00481-078D-447C-8552-D78E630BB510 
 ---
 
 > Tl;Dr: Use `utils/build-toolchain` script in `Swift` repo to build the toolchain on both OS X and Ubuntu
