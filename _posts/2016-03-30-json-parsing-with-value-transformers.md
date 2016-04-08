@@ -16,6 +16,7 @@ In [the last tutorial](http://bhargavg.com/swift/2016/03/29/functional-json-pars
     <li><em><strong><a href="http://bhargavg.com/swift/2016/03/30/json-parsing-with-value-transformers.html">JSON Parsing With Value Transformers</a></strong></em></li>
     <li><em><a href="http://bhargavg.com/swift/2016/04/05/parsing-arrays-in-json.html">Parsing Arrays in JSON</a></em></li>
     <li><em><a href="http://bhargavg.com/swift/2016/04/07/handling-optional-properties-in-json.html">Handling Optional Properties in JSON</a></em></li>
+    <li><em><a href="http://bhargavg.com/swift/2016/04/08/supporting-keypaths-json-parsing.html">Supporting keypaths</a></em></li>
   </ul>
 </blockquote>
 
