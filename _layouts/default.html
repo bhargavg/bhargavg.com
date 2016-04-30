@@ -58,6 +58,14 @@ $(document).ready(function() {
       eventLabel: 'Clicked on Hire Me button'
     });
   });
+  $("a#view-resume").click(function(){
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'view_resume',
+      eventAction: 'clicked',
+      eventLabel: 'Clicked on View Resume button'
+    });
+  });
 });
     </script>
     {% endif %}
