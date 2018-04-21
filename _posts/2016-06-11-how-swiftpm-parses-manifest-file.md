@@ -7,6 +7,8 @@ disqus: true
 uuid: 99F5E9A9-B0D8-4B61-A454-FFEF8BC82773
 ---
 
+> Disclaimer: This post is outdated. Even though SwiftPM changed a lot since this post was written, the underlying idea is the same. So, please take with a pinch of salt.
+
 SwiftPM uses `Package.swift` as a manifest file to capture information about the current package like, name of the package, its dependencies, targets, etc.,
 
 Because `Package.swift` is written in Swift language, parsing it is not as straight forward as parsing `JSON` or `XML`. So, how does SwiftPM binary gets the package information?
